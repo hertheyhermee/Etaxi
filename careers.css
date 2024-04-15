@@ -1,0 +1,157 @@
+.careers {
+    position: relative;
+    padding: 80px 0 110px;
+    background: #2a4696 url(images/bg-image-1.jpg) center center;
+    background-size: cover;
+}
+
+.career {
+    background: #f9f8f8;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.career_list {
+    position: relative;
+    top: -12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px 10px 12px;
+    background: #f9f8f8;
+    border-radius: 4px;
+    transform: translate3d(0, -3px, 0);
+    margin-bottom: -3px;
+    margin-left: -17px;
+    margin-right: -17px;
+    list-style: none;  
+    /* bottom: 10px; */
+}
+.career_list li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.career_list li ::after{
+    content: "/";
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    display: inline-block;
+    font-size: inherit;
+    font-style: normal;
+    transform: translate3d(0, -50%, 0);
+}
+
+li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+  .career_list a {
+    color: #000;
+}
+
+.career_list > * {
+    margin-top: 3px;
+    padding: 0 17px;
+}
+
+.career-details {
+    padding: 85px 0 95px;
+}
+
+.career-details h3 {
+    /* font-size: 47px; */
+}
+
+.lists {
+    columns: 2;
+    column-gap: 30px;
+    break-inside: avoid;
+    max-width: 400px;
+}
+
+.row-50 {
+    margin-bottom: -50px;
+}
+
+.vacancies {
+    background-color: #f9f8f8;
+    padding:80px 0 110px;
+}
+
+
+.vacant a {
+    text-decoration: none;
+    color: #000000cc;
+}
+
+.vacancy {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 35px 25px 35px;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: 1px 2px 5px 0 rgba(68, 73, 83, 0.12);
+}
+.vacancy p {
+    font-weight: 300;
+    color: #151515;
+}
+
+.vacancy-list {
+    margin-bottom: -4px;
+    margin-left: -10px;
+}
+
+.vacancy-list li {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+
+.copyright {
+    border-top: 1px solid #ebebeb;
+    /* margin-bottom: 20px; */
+}
+
+ul {
+    list-style: none;
+}
+
+.footers ul, .footers li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.footers ul {
+    margin-top: 30px !important;
+}
+.footers ul li {
+    margin: 15px 0 !important;
+}
+.footers ul li a {
+    color: #000000cc;
+}
+
+.footers a {
+    text-decoration: none;
+    color: #000000cc;
+}
+.footers {
+    padding:80px 0 0px;
+}
+.button {
+    padding: 10px 40px;
+}
+
+.footers ul .signup,.footers ul .pricing {
+    margin-top: 0 !important;
+}
+
