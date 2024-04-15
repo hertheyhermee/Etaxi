@@ -1,0 +1,81 @@
+.hero {
+    overflow: hidden !important;
+}
+
+.form_input {
+    overflow: hidden !important;
+    top: -21%;
+    right: -55%;
+    bottom: -40%;
+    margin-right: 0;
+    transform: rotate(-12deg);
+    border-radius: 7%;
+    border: 1px solid transparent;
+    background: #2a4696;
+    position: absolute;
+}
+
+._form {
+    position: absolute;
+    transform: rotate(12deg);
+    background: transparent;
+    top: 200px;
+    left: 8%;
+    z-index: 2;
+    /* border: 1px solid white; */
+    max-width: 380px;
+}
+
+._form h2,
+._form p {
+    color: #fff;
+}
+
+._form h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+._form .telephone {
+    font-weight: 300;
+    transition: .2s;
+    font-size: 40px;
+}
+
+._form .trust-the-leading-operator {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+._form .contact {}
+
+._form svg {
+    color: rgb(138, 162, 201);
+}
+
+._form .telephone:hover {
+    color: #09b294;
+}
+
+@media screen and (max-width:1200px) {
+    .form_input {
+        transform: rotate(0deg);
+        position: relative;
+        right: 0;
+        border-radius: 0 0 8px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ._form {
+        position: relative;
+        transform: rotate(0deg);
+        left: 0;
+        margin-bottom: 300px;
+    }
+
+    .heroWrap {
+        flex-direction: column-reverse;
+    }
+}
