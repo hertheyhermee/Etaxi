@@ -1,8 +1,8 @@
 select {
     width: 100%;
-    padding: 18px;
+    padding: 15px;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 select:focus {
@@ -22,7 +22,7 @@ select:focus {
 }
 
 .input-wrap input {
-    padding: 18px;
+    padding: 15px;
     background: transparent;
     border: none;
 }
@@ -33,21 +33,38 @@ select:focus {
 
 .input-number input {
     width: 100%;
-    padding: 18px;
+    padding: 15px;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 .number-input-wrap input:focus {
-    border-radius: 8px;
+    border-radius: 6px;
     border: none;
     outline: none;
 }
 
 .btn_wrap button {
-    border-radius: 8px;
+    border-radius: 6px;
     border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background: rgb(9,178,148);
 }
 
 input[type="number"]::-webkit-inner-spin-button {
     display: none;
+}
+
+@media screen and (max-width:576px) {
+    .btn_wrap button {
+        width: 100%;
+        padding: 15px 0;
+        border-radius: 6px;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: #fff;
+        background: rgb(9,178,148);
+    }
 }

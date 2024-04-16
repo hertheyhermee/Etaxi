@@ -2,6 +2,10 @@
     overflow: hidden !important;
 }
 
+.hero-img img {
+    margin-top: 8em !important;
+}
+
 .form_input {
     overflow: hidden !important;
     top: -21%;
@@ -23,7 +27,7 @@
     left: 8%;
     z-index: 2;
     /* border: 1px solid white; */
-    max-width: 380px;
+    max-width: 400px;
 }
 
 ._form h2,
@@ -69,6 +73,7 @@
     }
 
     ._form {
+        top: 150px;
         position: relative;
         transform: rotate(0deg);
         left: 0;
@@ -77,5 +82,11 @@
 
     .heroWrap {
         flex-direction: column-reverse;
+    }
+
+    .hero-img {
+        width: 100% !important;
+        margin: 0 auto;
+        /* border: 1px solid; */
     }
 }

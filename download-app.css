@@ -1,0 +1,64 @@
+.download-app {
+    padding: 0 9.5em !important;
+    background: #2A4696;
+    color: #fff;
+}
+
+.download {
+    padding: 8em 0;
+}
+
+.tab-headers p {
+    border-bottom: 2px solid #95a3cb;
+    color: #95a3cb !important;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.download h3 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.download ul li {
+    list-style: none;
+}
+
+.download .list_wrap .list_style_wrap div {
+    width: 6px;
+    height: 6px;
+    background: #FFE65B;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.tab-content {
+    max-width: 420px;
+}
+
+.download .tab-content .p-main {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.list_style_wrap {
+    margin-bottom: 16px;
+}
+
+.download-app .img_wrap {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.download-app .img_wrap img {
+    position: absolute;
+    top: 8em;
+}
+
+@media screen and (max-width:) {
+    .download-app {
+        padding: 0 1em !important;
+    }
+}

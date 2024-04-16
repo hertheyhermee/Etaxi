@@ -9,28 +9,37 @@
     <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="/hero.css">
     <link rel="stylesheet" href="/input.css">
+    <link rel="stylesheet" href="/services.css">
+    <link rel="stylesheet" href="/download-app.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <div class="container-fluid navBar">
-        <div class="container py-4 border-dark border">
+        <div class="py-3 py-xl-4 child">
             <nav class="d-flex justify-content-between align-items-center mx-0 mx-md-5">
                 <div class="logo_div d-flex align-items-center">
+                    <div class="d-block d-xl-none">
+                        <div class="hamburger-major">
+
+                        </div>
+                    </div>
                     <div class="brand">
                         <img src="./images/logo-111x33.png" alt="">
                     </div>
-                    <div>
+                    <div class="ms-5 justify-content-center gap-5 links d-none d-xl-flex">
                         <a href="#" class="text-capitalize text-decoration-none">get our app</a>
                         <a href="#" class="text-capitalize text-decoration-none">pages</a>
                     </div>
                 </div>
-                <div class="nav_links">
+                <div class="nav_links d-flex align-items-center">
                     <button class="join text-uppercase">join us</button>
                     <div class="hamburger">
-                        <div class="wrap">
-                            <div></div>
+                        <div class="wrap d-flex flex-column position-relative align-items-center py-2">
+                            <div class="hamburger-item"></div>
                         </div>
                     </div>
                 </div>
@@ -42,8 +51,8 @@
     <!-- Hero -->
     <div class="container-fluid hero">
         <div class="row heroWrap">
-            <div class="col-12 col-md-6">
-                <div class="d-flex justify-content-center align-items-center my-6">
+            <div class="col-12 col-xl-6">
+                <div class="d-flex justify-content-center align-items-center my-0 my-xl-6 py-4 py-xl-0 hero-img">
                     <img src="/images/idnex-1-747x597.png" width="95%" class="img-fluid" alt="">
                 </div>
             </div>
@@ -78,11 +87,11 @@
                             <input type="text" class="_input" placeholder="Destination Address">
                         </div>
                         <div class="input-number mb-4 row gap-0">
-                            <div class="col-8 number-input-wrap">
+                            <div class="col-12 col-sm-8 number-input-wrap mb-4 mb-sm-0">
                                 <input type="number" class="_input" placeholder="Your Phone Number">
                             </div>
-                            <div class="col-4 d-flex justify-content-end btn_wrap">
-                                <button class="text-uppercase">
+                            <div class="col-12 col-sm-4 d-sm-flex justify-content-end btn_wrap ps-sm-0">
+                                <button class="text-uppercase px-3">
                                     order now
                                 </button>
                             </div>
@@ -92,6 +101,145 @@
             </div>
         </div>
     </div>
+
+    <!--services-->
+    <div class="container-fluid services position-relative">
+        <div class="container py-5">
+            <h1 class="text-uppercase fw-bold">our services</h1>
+            <div class="cards row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="service-card pt-5">
+                        <div class="img">
+                            <div class="box-modern-circle"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#09b294"
+                                    d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#09b294"
+                                    d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                            </svg>
+                            <div class="box-modern-circle-1"></div>
+                        </div>
+                        <div class="wrap">
+                            <h4 class="text-uppercase mb-4">private driver</h4>
+                            <p>Enjoy the best customer service from our professional drivers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="img">
+                            <div class="box-modern-circle"></div>
+                            <svg style="transform: rotate(270deg) !important;" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#09b294"
+                                    d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">!Font Awesome Free 6.5.2 by
+                                @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free
+                                Copyright 2024 Fonticons, Inc.
+                                <path fill="#09b294" 3-32-32-32H256V80z" />
+                            </svg>
+                            <div class="box-modern-circle-1"></div>
+                        </div>
+                        <div class="wrap">
+                            <h4 class="text-uppercase mb-4">airport transfer</h4>
+                            <p>Comfortable transfer services from airport to any chosen address.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="img">
+                            <div class="box-modern-circle"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#09b294"
+                                    d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#09b294"
+                                    d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                            </svg>
+                            <div class="box-modern-circle-1"></div>
+                        </div>
+                        <div class="wrap">
+                            <h4 class="text-uppercase mb-4">baggage transfer</h4>
+                            <p>If you need to collect your baggage, we are ready to help you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid download-app">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="download">
+                    <h3 class="text-uppercase">download the app</h3>
+                    <div class="tabs mt-4">
+                        <div class="tab-headers d-flex">
+                            <p class="text-uppercase me-4">details</p>
+                            <p class="text-uppercase">how it works</p>
+                        </div>
+                        <div class="tab-content mt-3">
+                            <p class="p-main">
+                                Download our app and enjoy the best service from ETAXI. All you have to do to begin
+                                using it is to enter your name and mobile phone number. You’ll access:
+                            </p>
+                            <div class="list_wrap">
+                                <div class="list_style_wrap d-flex align-items-center">
+                                    <div></div>
+                                    <p class="mb-0">Special offers</p>
+                                </div>
+                                <div class="list_style_wrap d-flex align-items-center">
+                                    <div></div>
+                                    <p class="mb-0">ETAXI loyalty program</p>
+                                </div>
+                                <div class="list_style_wrap d-flex align-items-center">
+                                    <div></div>
+                                    <p class="mb-0">More pricing plans</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stores mt-5">
+                            <img src="/images/button-1-170x53.png" class="img-fluid me-4" alt="">
+                            <img src="/images/button-2-170x53.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="img_wrap">
+                    <img src="/images/frame-1-533x868.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const navBar = document.querySelector('.navBar');
+        const navLinks = document.querySelector('.nav_links');
+        let lastScrollTop = 0;
+
+        window.addEventListener('scroll', () => {
+            let scrollHeight = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollHeight > lastScrollTop) {
+                navBar.classList.add("scroll");
+                navLinks.classList.add("scroll");
+            } else {
+                navBar.classList.remove("scroll");
+                navLinks.classList.remove("scroll");
+            }
+            // lastScrollTop = scrollHeight;
+        })
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

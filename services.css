@@ -1,0 +1,126 @@
+.services {
+    background: rgb(249, 248, 248);
+    z-index: 200;
+    padding-left: 9em !important;
+    padding-right: 9em !important;
+}
+
+.services .cards {
+    margin-top: 50px;
+}
+
+.services h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.service-card {
+    text-align: center;
+    border-radius: 7px;
+    padding: 40px 20px;
+    box-shadow: -1px 9px 18px 0px rgba(75, 81, 91, .1);
+}
+
+.service-card .wrap {
+    padding: 0 20px;
+}
+
+.service-card .wrap:last-of-type {
+    padding: 0 18px;
+}
+
+.service-card .wrap h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.service-card .wrap p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    color: ;
+}
+
+.service-card .img {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 150px;
+    /* border: 1px solid #000; */
+
+}
+
+.box-modern-circle {
+    left: 0;
+    top: 0;
+    width: 7em;
+    height: 7em;
+    background: rgba(48, 97, 255, 0.1);
+
+}
+
+.box-modern-circle-1 {
+    width: 3em;
+    height: 3em;
+    right: -10px;
+    top: -35px;
+    background: #F5F8A0;
+}
+
+.box-modern-circle,
+.box-modern-circle-1 {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.img svg:first-of-type {
+    width: 55px;
+    position: absolute;
+    top: 20px;
+}
+
+.img svg:last-of-type {
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    left: 31%;
+
+}
+
+@media screen and (max-width:1200px) {
+    .services {
+        padding: 0 !important;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .service-card {
+        padding: 40px 15px;
+    }
+    .service-card .img {
+        position: relative;
+        margin: auto;
+        /* width: 80%; */
+        height: 150px;
+        /* border: 1px solid #000; */
+
+    }
+    .services .container {
+        max-width: 700px !important;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .services .container {
+        max-width: 965px !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .services {
+        padding: 0 3em !important;
+    }
+}

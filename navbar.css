@@ -1,5 +1,123 @@
 .navBar {
     position: fixed;
     z-index: 9999;
+    transition: .2s all ease;
 }
 
+.navBar .child {
+    margin: 0 6em;
+}
+
+.links a {
+    text-decoration: none !important;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hamburger {
+    position: relative;
+}
+
+.hamburger .wrap {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.hamburger .wrap div {
+    width: 65%;
+    height: 2px;
+    background: #ebebeb;
+    margin-top: 5px;
+}
+
+.hamburger .wrap div::before {
+    position: absolute;
+    content: "";
+    background-color: #ebebeb;
+    height: 2px;
+    width: 40%;
+    bottom: 50%;
+    transition: .2s ease;
+    left: 19%;
+    /* right: auto; */
+}
+.hamburger .wrap div::after {
+    position: absolute;
+    content: "";
+    background-color: #ebebeb;
+    height: 2px;
+    width: 65%;
+    bottom: 30%;
+}
+
+.hamburger .wrap:hover .hamburger-item::before {
+    left: 38%;
+    /* right: 19%; */
+}
+
+.nav_links {
+    transition: .2s ease;
+} 
+
+.nav_links button {
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    border: 1px solid #fff;
+}
+
+@media screen and (min-width:1200px) {
+
+.navBar.scroll {
+    background: #fff;
+    padding: 0 12px !important;
+    transition: .2s ease;
+    /* margin: 0 !important; */
+}
+
+.nav_links.scroll {
+    transition: .2s ease;
+    clip-path: polygon(4% 0, 100% 0, 100% 100%, 0% 100%);
+    padding: 0 90px;
+    border-radius:;
+    position: absolute;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    background: #2a4696 !important;
+    z-index: 888;
+}    
+}
+
+
+@media screen and (max-width:1200px) {
+    .navBar {
+        background-color: #fff;
+        border-bottom: 1px solid #ebebeb;
+        padding-right: 0 !important;
+    }
+    .navBar .child {
+        padding: 0 !important;
+        margin: 0 0;
+    }
+    .navBar .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .nav_links {
+        background:#2a4696;
+        height: inherit;
+        padding: 0 13px;
+        /* border: 3px solid goldenrod; */
+    }
+    .nav_links button {
+        background: transparent;
+        color: #ebebeb;
+        font-weight: 700;
+        border: none;
+        margin-right: 20px;
+    }
+}
