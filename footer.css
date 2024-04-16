@@ -1,0 +1,93 @@
+.footers ul, .footers li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.footers ul {
+    margin-top: 30px !important;
+}
+.footers ul li {
+    margin: 15px 0 !important;
+}
+.footers ul li a {
+    color: #000000cc;
+}
+
+.footers a {
+    text-decoration: none;
+    color: #000000cc;
+}
+.footers {
+    padding:10px 0 0px;
+}
+
+
+/* .buttons {
+    padding: 10px 50px;
+    border-radius: 30px;
+} */
+
+/* .footers ul .signup,.footers ul .pricing {
+    margin-top: 0 !important;
+} */
+
+ .rowss {
+    margin-bottom: -50px;
+}
+
+.rowss > * {
+    margin-bottom: 50px;
+}
+
+
+@media (min-width:768px) {
+    .footers-one {
+        padding: 70px 0 60px;
+    }
+    
+}
+
+@media (min-width:992px) {
+    .rowss{
+       justify-content: space-between !important;
+    }
+    
+}
+
+@media (min-width:1200px) {
+    .footers .footers-one + * {
+        margin-top: 38px;
+       
+    }    
+}
+@media screen and (max-width:1200px) {
+    .group {
+        margin-top: 1rem !important;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .footers ul li {
+        display: inline-block;
+        margin: 0 .75em !important;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .services {
+        columns: 2;
+        break-inside: avoid;
+        column-gap: 30px;
+    }
+}
+
+.footers ul .signup {
+    margin-top: 0 !important;
+}
+
+.infos {
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+}
+
+
