@@ -1,7 +1,7 @@
 .careers {
     position: relative;
-    padding: 80px 0 110px;
-    background: #2a4696 url(images/bg-image-1.jpg) center center;
+    padding: 80px 0 30px;
+    background: #2a4696 url(images/bg-image-1.jpg)center center;
     background-size: cover;
 }
 
@@ -10,6 +10,11 @@
     padding: 0 10px;
     text-align: center;
 }
+
+ol {
+    padding-left: 1rem ;
+}
+
 
 .career_list {
     position: relative;
@@ -48,6 +53,12 @@
     transform: translate3d(0, -50%, 0);
 }
 
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
 li a {
     text-decoration: none;
     cursor: pointer;
@@ -62,7 +73,7 @@ li a {
 }
 
 .career-details {
-    padding: 85px 0 95px;
+    padding: 80px 0 30px;
 }
 
 .career-details h3 {
@@ -74,15 +85,24 @@ li a {
     column-gap: 30px;
     break-inside: avoid;
     max-width: 400px;
+    padding-left: 1rem !important;
 }
 
-.row-50 {
+.details {
     margin-bottom: -50px;
+}
+
+.details > * {
+    margin-bottom: 50px;
 }
 
 .vacancies {
     background-color: #f9f8f8;
     padding:80px 0 110px;
+}
+
+.career-start {
+    padding: 0 20px ;
 }
 
 
@@ -108,6 +128,7 @@ li a {
 .vacancy-list {
     margin-bottom: -4px;
     margin-left: -10px;
+    padding: 0;
 }
 
 .vacancy-list li {
@@ -126,32 +147,47 @@ ul {
     list-style: none;
 }
 
-.footers ul, .footers li {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-.footers ul {
-    margin-top: 30px !important;
-}
-.footers ul li {
-    margin: 15px 0 !important;
-}
-.footers ul li a {
-    color: #000000cc;
+@media (min-width:1200px) {
+    .careers {
+        padding: 80px 0 110px;
+    }
+    .vacancy {
+        font-size: 26px;
+    }
 }
 
-.footers a {
-    text-decoration: none;
-    color: #000000cc;
-}
-.footers {
-    padding:80px 0 0px;
-}
-.button {
-    padding: 10px 40px;
+.career-img + .career-details {
+    border-top: 1px solid #ebebeb;
 }
 
-.footers ul .signup,.footers ul .pricing {
-    margin-top: 0 !important;
+@media (max-width:768px) {
+    .vacancy {
+        padding: 35px 9% 45px;
+    }
+    .vacancy-list {
+        /* margin-left: 0 !important; */
+    }
 }
+
+@media screen and (max-width:400px) {
+    .vacancy-list li span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .vacancy-list li span {
+        font-size: 14px;
+    }
+}
+
+
+/* @media screen and (max-width: 992px) {
+    .career-start {
+        padding-left: 0;
+    }
+} */
+
+
+
 
