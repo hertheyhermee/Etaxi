@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/input.css" />
     <link rel="stylesheet" href="/services.css" />
     <link rel="stylesheet" href="/download-app.css" />
+    <link rel="stylesheet" href="/box-default.css">
     <link rel="stylesheet" href="/testimonials.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -26,38 +27,34 @@
 
   <body>
     <div class="container-fluid navBar">
-      <div class="py-3 py-xl-4 child">
-        <nav
-          class="d-flex justify-content-between align-items-center mx-0 mx-md-5"
-        >
-          <div class="logo_div d-flex align-items-center">
-            <div class="d-block d-xl-none">
-              <div class="hamburger-major"></div>
-            </div>
-            <div class="brand">
-              <img src="./images/logo-111x33.png" alt="" />
-            </div>
-            <div
-              class="ms-5 justify-content-center gap-5 links d-none d-xl-flex"
-            >
-              <a href="#" class="text-capitalize text-decoration-none"
-                >get our app</a
-              >
-              <a href="#" class="text-capitalize text-decoration-none">pages</a>
-            </div>
-          </div>
-          <div class="nav_links d-flex align-items-center">
-            <button class="join text-uppercase">join us</button>
-            <div class="hamburger">
-              <div
-                class="wrap d-flex flex-column position-relative align-items-center py-2"
-              >
-                <div class="hamburger-item"></div>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
+        <div class="py-3 py-xl-4 child">
+            <nav class="d-flex justify-content-between align-items-center mx-0 mx-md-5">
+                <div class="logo_div d-flex align-items-center">
+                    <div class="d-block d-xl-none">
+                        <div class="hamburger-major">
+                            <div class="ham-major-wrapper">
+                                <div class="ham-major-item"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <img src="./images/logo-111x33.png" alt="">
+                    </div>
+                    <div class="ms-5 justify-content-center gap-5 links d-none d-xl-flex">
+                        <a href="#" class="text-capitalize text-decoration-none">get our app</a>
+                        <a href="#" class="text-capitalize text-decoration-none">pages</a>
+                    </div>
+                </div>
+                <div class="nav_links d-flex align-items-center">
+                    <button class="join text-uppercase">join us</button>
+                    <div class="hamburger">
+                        <div class="wrap d-flex flex-column position-relative align-items-center py-2">
+                            <div class="hamburger-item"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </div>
 
     <!-- Hero -->
@@ -238,58 +235,188 @@
     </div>
 
     <div class="container-fluid download-app">
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <div class="download">
-            <h3 class="text-uppercase">download the app</h3>
-            <div class="tabs mt-4">
-              <div class="tab-headers d-flex">
-                <p class="text-uppercase me-4">details</p>
-                <p class="text-uppercase">how it works</p>
-              </div>
-              <div class="tab-content mt-3">
-                <p class="p-main">
-                  Download our app and enjoy the best service from ETAXI. All
-                  you have to do to begin using it is to enter your name and
-                  mobile phone number. You’ll access:
-                </p>
-                <div class="list_wrap">
-                  <div class="list_style_wrap d-flex align-items-center">
-                    <div></div>
-                    <p class="mb-0">Special offers</p>
-                  </div>
-                  <div class="list_style_wrap d-flex align-items-center">
-                    <div></div>
-                    <p class="mb-0">ETAXI loyalty program</p>
-                  </div>
-                  <div class="list_style_wrap d-flex align-items-center">
-                    <div></div>
-                    <p class="mb-0">More pricing plans</p>
+        <div class="row">
+            <div class="col-12 col-md-6 column_1">
+                <div class="download">
+                    <h3 class="text-uppercase">download the app</h3>
+                    <div class="tabs mt-4">
+                        <div class="tab-headers d-flex">
+                            <p class="active me-md-4 mb-0 mb-md-3 header">details</p>
+                            <p class="header">how it works</p>
+                        </div>
+                        <div class="tab-content">
+                            <div class="mt-3 tab-content-child active">
+                                <p class="p-main">
+                                    Download our app and enjoy the best service from ETAXI. All you have to do to begin
+                                    using it is to enter your name and mobile phone number. You’ll access:
+                                </p>
+                                <div class="list_wrap">
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">Special offers</p>
+                                    </div>
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">ETAXI loyalty program</p>
+                                    </div>
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">More pricing plans</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3 tab-content-child">
+                                <p class="p-main">
+                                    ETAXI App allows you to book a taxi without having to call our dispatcher as well as set your route in advance or pick a driver, a preferred car, and more:
+                                </p>
+                                <div class="list_wrap">
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">Manage your taxi spendings;</p>
+                                    </div>
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">Pay for taxi without a credit card;</p>
+                                    </div>
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">Great discounts for regular clients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stores mt-5">
+                            <img src="/images/button-1-170x53.png" class="img-fluid me-4" alt="">
+                            <img src="/images/button-2-170x53.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-sm-flex d-md-block align-items-center column_2">
+                <div class="img_wrap">
+                    <img src="/images/frame-1-533x868.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-1 text-center" id="stickers">
+        <div class="container">
+            <div class="row justify-content-center align-items-center bordered-1">
+                <div class="col-sm-4">
+                    <div class="box-default">
+                        <p class="box-default-title">Standard</p>
+                        <p class="box-default-text">$2,7 /km</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="box-default">
+                        <p class="box-default-title">Business</p>
+                        <p class="box-default-text">$5,7 /km</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="box-default">
+                        <p class="box-default-title">Premium</p>
+                        <p class="box-default-text">$7,7 /km</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="testimonials text-center">
+      <div class="container contain">
+          <h3 class="text-uppercase my-5">Testimonials</h3>
+        <div class="clients">
+          <div class="row clients-data">
+            <div class="col-md-6 col-lg-4 testimony">
+              <blockquote class="quotes">
+                <div class="quotes_head">
+                  <div class="quotes-info">
+                    <img
+                      src="./images/testimonials-1-74x74.jpg"
+                      class="quotes_img"
+                    />
+                    <div class="quotes-info-main">
+                      <cite class="quotes-cite">JANE WILLIAMS</cite>
+                      <p>Regular Client</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="stores mt-5">
-                <img
-                  src="/images/button-1-170x53.png"
-                  class="img-fluid me-4"
-                  alt=""
-                />
-                <img
-                  src="/images/button-2-170x53.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+                <div class="quote">
+                    <div class="quote-text">
+                      <p class="">
+                        I found your service to be a 5-star experience. The
+                        driver was waiting at the arrivals hall for us. All the
+                        people we communicated with were pleasant and cheerful.
+                      </p>
+                    </div>
+                    <div class="quote_logo">
+                        <a class="quote-link"><i class="bi bi-facebook" style="color:#6885cf; font-size:40px"></i></a>
+                        <time class="quote-time" datetime="2024">Mar 24, 2024</time>
+                    </div>
+                  </div>
+
+              </blockquote>
             </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="img_wrap">
-            <img src="/images/frame-1-533x868.png" class="img-fluid" alt="" />
+            <div class="col-md-6 col-lg-4" >
+            <blockquote class="quotes">
+                <div class="quotes_head">
+                  <div class="quotes-info">
+                    <img
+                      src="./images/testimonials-2-74x74.jpg"
+                      class="quotes_img"
+                    />
+                    <div class="quotes-info-main">
+                      <cite class="quotes-cite">JOE DOE</cite>
+                      <p>Regular Client</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="quote">
+                    <div class="quote-text">
+                      <p class="">
+                        Everything went perfectly! Incredibly punctual, friendly drivers, and the best service!
+                      </p>
+                    </div>
+                    <div class="quote_logo">
+                        <a class="quote-link"><i class="bi bi-facebook" style="color:#6885cf; font-size:40px"></i></a>
+                        <time class="quote-time" datetime="2024">Mar 24, 2024</time>
+                    </div>
+                  </div>
+              </blockquote>
+            </div>
+            <div class="col-md-6 col-lg-4" >
+            <blockquote class="quotes">
+                <div class="quotes_head">
+                  <div class="quotes-info">
+                    <img
+                      src="./images/testimonials-3-74x74.jpg"
+                      class="quotes_img"
+                    />
+                    <div class="quotes-info-main">
+                      <cite class="quotes-cite">KATE PETERSON</cite>
+                      <p>Regular Client</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="quote">
+                    <div class="quote-text">
+                      <p class="">
+                        The service was excellent, thank you. My driver was waiting at Arrivals for me with a clear sign. He introduced himself, was very polite and friendly.
+                      </p>
+                    </div>
+                    <div class="quote_logo">
+                        <a class="quote-link"><i class="bi bi-facebook" style="color:#6885cf; font-size:40px"></i></a>
+                        <time class="quote-time" datetime="2024">Mar 24, 2024</time>
+                    </div>
+                  </div>
+              </blockquote></div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     
     <script>
@@ -310,6 +437,8 @@
         // lastScrollTop = scrollHeight;
       });
     </script>
+
+    <script src="/main.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

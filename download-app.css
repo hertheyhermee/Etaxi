@@ -14,6 +14,8 @@
     padding-bottom: 5px;
     font-weight: 700;
     font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .download h3 {
@@ -33,6 +35,11 @@
     border-radius: 50%;
 }
 
+.tab-headers p.active {
+    color: #fff !important;
+    border-color: #fff;
+}
+
 .tab-content {
     max-width: 420px;
 }
@@ -49,16 +56,120 @@
 .download-app .img_wrap {
     position: relative;
     margin: 0 auto;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .download-app .img_wrap img {
     position: absolute;
     top: 8em;
 }
+.stores img {
+    width: 40%;
+}
 
-@media screen and (max-width:) {
+.tab-content-child.active {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    transition: .2s all;
+}
+
+.tab-content-child {
+    opacity: 0;
+    display: none;
+    transition: .2s all;
+}
+
+@media screen and (max-width:1024px) {
+    .download h3 {
+        font-size: 28px;
+    }
+    .tab-content {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:992px) {
     .download-app {
-        padding: 0 1em !important;
+        padding: 0 4em !important;
+    }
+    .tab-content {
+        max-width: 100%;
+    }
+    .column_1 {
+        width: 55% !important;
+    }
+    .column_2 {
+        width: 45% !important;
+    }
+    .download-app .img_wrap {
+        
+    }
+    .download-app .img_wrap img {
+        position: relative;
+        top: 8em;
+    }
+    .download h3 {
+        font-size: 26px;
+    }
+    .stores img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .download-app {
+        padding: 0 6em !important;
+    }
+    .download-app .row {
+        flex-direction: column-reverse;
+    }
+    .column_1 {
+        width: 100% !important;
+    }
+    .column_2 {
+        width: 100% !important;
+    }
+    .tab-content {
+        max-width: 100%;
+    }
+    .tab-headers {
+        flex-direction: column;
+    }
+    .tab-headers p {
+        text-transform: capitalize;
+        font-weight: 400 !important;
+        padding: 8px 0;
+        text-align: center;
+    }
+    /* .tab-headers p:first-of-type {
+        border-top: 1px solid #95a3cb;
+    } */
+    .tab-headers p.active {
+        border-color: #95a3cb;
+    }
+
+    .download h3 {
+        font-size: 22px;
+    }
+    .tab-headers p.active {
+        background-color: rgba(255, 255, 255, .3);
+        color: #fff !important;
+    }
+    .download-app .img_wrap img {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        top: 5em;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .download-app {
+        padding: 0 2em !important;
+    }
+    .download-app .img_wrap img {
+        width: 100%;
     }
 }

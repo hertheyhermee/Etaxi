@@ -90,3 +90,25 @@
         /* border: 1px solid; */
     }
 }
+
+@media screen and (max-width:768px) {
+    ._form {
+        top: 75px;
+    }
+
+    ._form h2 {
+        font-size: 28px;
+    }
+
+    ._form .telephone {
+        font-size: 20px;
+    }
+
+    ._form svg {
+        
+    }
+
+    ._form p {
+
+    }
+}
