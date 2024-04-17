@@ -113,7 +113,7 @@
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (max-width:992px) {
     .services .container {
         max-width: 965px !important;
     }

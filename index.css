@@ -12,3 +12,9 @@ body {
 .my-6 {
     margin: 8em 0;
 }
+
+@media screen and (min-width:768px) {
+    .text-md-uppercase {
+        text-transform: uppercase !important;
+    }  
+}

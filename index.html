@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/input.css">
     <link rel="stylesheet" href="/services.css">
     <link rel="stylesheet" href="/download-app.css">
+    <link rel="stylesheet" href="/box-default.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -24,7 +25,9 @@
                 <div class="logo_div d-flex align-items-center">
                     <div class="d-block d-xl-none">
                         <div class="hamburger-major">
-
+                            <div class="ham-major-wrapper">
+                                <div class="ham-major-item"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="brand">
@@ -179,31 +182,52 @@
 
     <div class="container-fluid download-app">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 column_1">
                 <div class="download">
                     <h3 class="text-uppercase">download the app</h3>
                     <div class="tabs mt-4">
                         <div class="tab-headers d-flex">
-                            <p class="text-uppercase me-4">details</p>
-                            <p class="text-uppercase">how it works</p>
+                            <p class="active me-md-4 mb-0 mb-md-3 header">details</p>
+                            <p class="header">how it works</p>
                         </div>
-                        <div class="tab-content mt-3">
-                            <p class="p-main">
-                                Download our app and enjoy the best service from ETAXI. All you have to do to begin
-                                using it is to enter your name and mobile phone number. You’ll access:
-                            </p>
-                            <div class="list_wrap">
-                                <div class="list_style_wrap d-flex align-items-center">
-                                    <div></div>
-                                    <p class="mb-0">Special offers</p>
+                        <div class="tab-content">
+                            <div class="mt-3 tab-content-child active">
+                                <p class="p-main">
+                                    Download our app and enjoy the best service from ETAXI. All you have to do to begin
+                                    using it is to enter your name and mobile phone number. You’ll access:
+                                </p>
+                                <div class="list_wrap">
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">Special offers</p>
+                                    </div>
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">ETAXI loyalty program</p>
+                                    </div>
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">More pricing plans</p>
+                                    </div>
                                 </div>
-                                <div class="list_style_wrap d-flex align-items-center">
-                                    <div></div>
-                                    <p class="mb-0">ETAXI loyalty program</p>
-                                </div>
-                                <div class="list_style_wrap d-flex align-items-center">
-                                    <div></div>
-                                    <p class="mb-0">More pricing plans</p>
+                            </div>
+                            <div class="mt-3 tab-content-child">
+                                <p class="p-main">
+                                    ETAXI App allows you to book a taxi without having to call our dispatcher as well as set your route in advance or pick a driver, a preferred car, and more:
+                                </p>
+                                <div class="list_wrap">
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">Manage your taxi spendings;</p>
+                                    </div>
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">Pay for taxi without a credit card;</p>
+                                    </div>
+                                    <div class="list_style_wrap d-flex align-items-center">
+                                        <div></div>
+                                        <p class="mb-0">Great discounts for regular clients.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -214,9 +238,34 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 d-sm-flex d-md-block align-items-center column_2">
                 <div class="img_wrap">
                     <img src="/images/frame-1-533x868.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-1 text-center" id="stickers">
+        <div class="container">
+            <div class="row justify-content-center align-items-center bordered-1">
+                <div class="col-sm-4">
+                    <div class="box-default">
+                        <p class="box-default-title">Standard</p>
+                        <p class="box-default-text">$2,7 /km</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="box-default">
+                        <p class="box-default-title">Business</p>
+                        <p class="box-default-text">$5,7 /km</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="box-default">
+                        <p class="box-default-title">Premium</p>
+                        <p class="box-default-text">$7,7 /km</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -240,6 +289,8 @@
             // lastScrollTop = scrollHeight;
         })
     </script>
+
+    <script src="/main.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
