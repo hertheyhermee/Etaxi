@@ -130,6 +130,12 @@
     padding: 10px 15px;
     margin: 10px 20px;
     border-radius: 5px;
+    transition: .2s;
+}
+
+.nav_links button:hover {
+    background:  #09b294;
+    border-color:  #09b294 !important;
 }
 
 @media screen and (min-width:1200px) {
