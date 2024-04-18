@@ -46,14 +46,14 @@
     position: relative;
     margin: auto;
     width: 50%;
-    height: 150px;
+    height: 200px;
     /* border: 1px solid #000; */
 
 }
 
 .box-modern-circle {
     left: 0;
-    top: 0;
+    top: 3em;
     width: 7em;
     height: 7em;
     background: rgba(48, 97, 255, 0.1);
@@ -64,7 +64,7 @@
     width: 3em;
     height: 3em;
     right: -10px;
-    top: -35px;
+    top: -15px;
     background: #F5F8A0;
 }
 
@@ -77,15 +77,15 @@
 .img svg:first-of-type {
     width: 55px;
     position: absolute;
-    top: 20px;
+    top: 75px;
+    right: 10px;
 }
 
 .img svg:last-of-type {
     width: 30px;
     position: absolute;
-    top: 30px;
-    left: 31%;
-
+    top: 85px;
+    left: 41%;
 }
 
 @media screen and (max-width:1200px) {
@@ -104,7 +104,8 @@
         position: relative;
         margin: auto;
         /* width: 80%; */
-        height: 150px;
+        height: 200px;
+        top: .5em;
         /* border: 1px solid #000; */
 
     }
@@ -115,12 +116,18 @@
 
 @media screen and (max-width:992px) {
     .services .container {
-        max-width: 965px !important;
+        max-width: 90% !important;
     }
 }
 
 @media screen and (max-width:576px) {
     .services {
         padding: 0 3em !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .services {
+        padding: 0 1em !important;
     }
 }

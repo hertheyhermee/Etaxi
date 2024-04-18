@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -12,441 +13,453 @@
     <link rel="stylesheet" href="/download-app.css" />
     <link rel="stylesheet" href="/box-default.css">
     <link rel="stylesheet" href="/testimonials.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
+    <link rel="stylesheet" href="/sidebars.css">
+    <link rel="stylesheet" href="/carousel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  </head>
+</head>
 
-  <body>
-    <div class="container-fluid navBar">
-        <div class="py-3 py-xl-4 child">
-            <nav class="d-flex justify-content-between align-items-center mx-0 mx-md-5">
-                <div class="logo_div d-flex align-items-center">
-                    <div class="d-block d-xl-none">
-                        <div class="hamburger-major">
-                            <div class="ham-major-wrapper">
-                                <div class="ham-major-item"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="brand">
-                        <img src="./images/logo-111x33.png" alt="">
-                    </div>
-                    <div class="ms-5 justify-content-center gap-5 links d-none d-xl-flex">
-                        <a href="#" class="text-capitalize text-decoration-none">get our app</a>
-                        <a href="#" class="text-capitalize text-decoration-none">pages</a>
-                    </div>
-                </div>
-                <div class="nav_links d-flex align-items-center">
-                    <button class="join text-uppercase">join us</button>
-                    <div class="hamburger">
-                        <div class="wrap d-flex flex-column position-relative align-items-center py-2">
-                            <div class="hamburger-item"></div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-
-    <!-- Hero -->
-    <div class="container-fluid hero">
-      <div class="row heroWrap">
-        <div class="col-12 col-xl-6">
-          <div
-            class="d-flex justify-content-center align-items-center my-0 my-xl-6 py-4 py-xl-0 hero-img"
-          >
-            <img
-              src="/images/idnex-1-747x597.png"
-              width="95%"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="form_input col-12">
-          <!-- <input type="text"> -->
-          <div class="_form">
-            <h2 class="text-uppercase">get a taxi now</h2>
-            <div class="contact d-flex align-items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                fill="currentColor"
-                class="bi bi-telephone-inbound-fill me-4"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0"
-                />
-              </svg>
-              <p class="mb-0 telephone">1-800-123-1234</p>
-            </div>
-            <p class="trust-the-leading-operator">
-              Trust the leading and the most reliable US taxi operator.
-            </p>
-            <form action="">
-              <div class="mb-4">
-                <select name="car-type" id="">
-                  <option value="">Type 1</option>
-                  <option value="">Type 2</option>
-                  <option value="">Type 3</option>
-                </select>
-              </div>
-              <div class="input-wrap mb-4">
-                <input
-                  type="text"
-                  class="_input"
-                  placeholder="Pickup Address"
-                />
-              </div>
-              <div class="input-wrap mb-4">
-                <input
-                  type="text"
-                  class="_input"
-                  placeholder="Destination Address"
-                />
-              </div>
-              <div class="input-number mb-4 row gap-0">
-                <div class="col-12 col-sm-8 number-input-wrap mb-4 mb-sm-0">
-                  <input
-                    type="number"
-                    class="_input"
-                    placeholder="Your Phone Number"
-                  />
-                </div>
-                <div
-                  class="col-12 col-sm-4 d-sm-flex justify-content-end btn_wrap ps-sm-0"
-                >
-                  <button class="text-uppercase px-3">order now</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--services-->
-    <div class="container-fluid services position-relative">
-      <div class="container py-5">
-        <h1 class="text-uppercase fw-bold">our services</h1>
-        <div class="cards row">
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="service-card pt-5">
-              <div class="img">
-                <div class="box-modern-circle"></div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                  <path
-                    fill="#09b294"
-                    d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
-                  />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                  <path
-                    fill="#09b294"
-                    d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
-                  />
-                </svg>
-                <div class="box-modern-circle-1"></div>
-              </div>
-              <div class="wrap">
-                <h4 class="text-uppercase mb-4">private driver</h4>
-                <p>
-                  Enjoy the best customer service from our professional drivers.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="service-card">
-              <div class="img">
-                <div class="box-modern-circle"></div>
-                <svg
-                  style="transform: rotate(270deg) !important"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 576 512"
-                >
-                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                  <path
-                    fill="#09b294"
-                    d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z"
-                  />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                  !Font Awesome Free 6.5.2 by @fontawesome -
-                  https://fontawesome.com License -
-                  https://fontawesome.com/license/free Copyright 2024 Fonticons,
-                  Inc. <path fill="#09b294" 3-32-32-32H256V80z" />
-                </svg>
-                <div class="box-modern-circle-1"></div>
-              </div>
-              <div class="wrap">
-                <h4 class="text-uppercase mb-4">airport transfer</h4>
-                <p>
-                  Comfortable transfer services from airport to any chosen
-                  address.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4">
-            <div class="service-card">
-              <div class="img">
-                <div class="box-modern-circle"></div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                  <path
-                    fill="#09b294"
-                    d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
-                  />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                  <path
-                    fill="#09b294"
-                    d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
-                  />
-                </svg>
-                <div class="box-modern-circle-1"></div>
-              </div>
-              <div class="wrap">
-                <h4 class="text-uppercase mb-4">baggage transfer</h4>
-                <p>
-                  If you need to collect your baggage, we are ready to help you.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid download-app">
-        <div class="row">
-            <div class="col-12 col-md-6 column_1">
-                <div class="download">
-                    <h3 class="text-uppercase">download the app</h3>
-                    <div class="tabs mt-4">
-                        <div class="tab-headers d-flex">
-                            <p class="active me-md-4 mb-0 mb-md-3 header">details</p>
-                            <p class="header">how it works</p>
-                        </div>
-                        <div class="tab-content">
-                            <div class="mt-3 tab-content-child active">
-                                <p class="p-main">
-                                    Download our app and enjoy the best service from ETAXI. All you have to do to begin
-                                    using it is to enter your name and mobile phone number. You’ll access:
-                                </p>
-                                <div class="list_wrap">
-                                    <div class="list_style_wrap d-flex align-items-center">
-                                        <div></div>
-                                        <p class="mb-0">Special offers</p>
-                                    </div>
-                                    <div class="list_style_wrap d-flex align-items-center">
-                                        <div></div>
-                                        <p class="mb-0">ETAXI loyalty program</p>
-                                    </div>
-                                    <div class="list_style_wrap d-flex align-items-center">
-                                        <div></div>
-                                        <p class="mb-0">More pricing plans</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mt-3 tab-content-child">
-                                <p class="p-main">
-                                    ETAXI App allows you to book a taxi without having to call our dispatcher as well as set your route in advance or pick a driver, a preferred car, and more:
-                                </p>
-                                <div class="list_wrap">
-                                    <div class="list_style_wrap d-flex align-items-center">
-                                        <div></div>
-                                        <p class="mb-0">Manage your taxi spendings;</p>
-                                    </div>
-                                    <div class="list_style_wrap d-flex align-items-center">
-                                        <div></div>
-                                        <p class="mb-0">Pay for taxi without a credit card;</p>
-                                    </div>
-                                    <div class="list_style_wrap d-flex align-items-center">
-                                        <div></div>
-                                        <p class="mb-0">Great discounts for regular clients.</p>
-                                    </div>
+<body>
+    <div class="wrapper">
+        <div class="container-fluid navBar">
+            <div class="py-3 py-xl-4 child">
+                <nav class="d-flex justify-content-between align-items-center mx-0 ms-md-5">
+                    <div class="logo_div d-flex align-items-center">
+                        <div class="d-block d-xl-none">
+                            <div class="hamburger-major">
+                                <div class="ham-major-wrapper">
+                                    <div class="ham-major-item"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="stores mt-5">
-                            <img src="/images/button-1-170x53.png" class="img-fluid me-4" alt="">
-                            <img src="/images/button-2-170x53.png" class="img-fluid" alt="">
+                        <div class="brand">
+                            <img src="./images/logo-111x33.png" alt="">
+                        </div>
+                        <div class="ms-5 justify-content-center gap-5 links d-none d-xl-flex">
+                            <a href="#" class="text-capitalize text-decoration-none">get our app</a>
+                            <a href="#" class="text-capitalize text-decoration-none">pages</a>
+                        </div>
+                    </div>
+                    <div class="nav_links d-flex align-items-center pe-0 pe-sm-5 ps-sm-3">
+                        <button class="join text-uppercase">join us</button>
+                        <div class="hamburger">
+                            <div class="wrap d-flex flex-column position-relative align-items-center py-2">
+                                <div class="hamburger-item"></div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <!-- Mobile Navbar -->
+        <div class="left-sidebar d-xl-none">
+            <div class="nav_wrap">
+                <ul>
+                    <li class="text-capitalize">get our app</li>
+                    <li class="text-capitalize">pages</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-sidebar">
+            <div class="nav_wrap_one">
+                <div class="position-relative px-4 py-4">
+                    <h5 class="mb-0 sidebar-title text-uppercase">navigation</h5>
+                    <p class="close mb-0 ">x</p>
+                </div>
+                <ul>
+                    <li class="text-capitalize border-top border-bottom">about us</li>
+                    <li class="text-uppercase border-bottom">faq</li>
+                    <li class="text-capitalize border-bottom">testimonials</li>
+                    <li class="text-capitalize border-bottom">our team</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Hero -->
+        <div class="wrapss">
+
+            <div class="container-fluid hero">
+                <div class="row heroWrap">
+                    <div class="overlay d-xl-flex"></div>
+                    <div class="col-12 col-xl-6">
+                        <div
+                            class="d-flex justify-content-center align-items-center my-0 my-xl-6 py-4 py-xl-0 hero-img">
+                            <img src="/images/idnex-1-747x597.png" width="95%" class="img-fluid" alt="" />
+                        </div>
+                    </div>
+                    <div class="form_input col-12">
+                        <!-- <input type="text"> -->
+                        <div class="_form">
+                            <h2 class="text-uppercase">get a taxi now</h2>
+                            <div class="contact d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-telephone-inbound-fill me-4" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0" />
+                                </svg>
+                                <p class="mb-0 telephone">1-800-123-1234</p>
+                            </div>
+                            <p class="trust-the-leading-operator">
+                                Trust the leading and the most reliable US taxi operator.
+                            </p>
+                            <form action="">
+                                <div class="mb-4">
+                                    <select name="car-type" id="">
+                                        <option value="">Type 1</option>
+                                        <option value="">Type 2</option>
+                                        <option value="">Type 3</option>
+                                    </select>
+                                </div>
+                                <div class="input-wrap mb-4">
+                                    <input type="text" class="_input" placeholder="Pickup Address" />
+                                </div>
+                                <div class="input-wrap mb-4">
+                                    <input type="text" class="_input" placeholder="Destination Address" />
+                                </div>
+                                <div class="input-number mb-4 row gap-0">
+                                    <div class="col-12 col-sm-8 number-input-wrap mb-4 mb-sm-0">
+                                        <input type="number" class="_input" placeholder="Your Phone Number" />
+                                    </div>
+                                    <div class="col-12 col-sm-4 d-sm-flex justify-content-end btn_wrap ps-sm-0">
+                                        <button class="text-uppercase px-3">order now</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 d-sm-flex d-md-block align-items-center column_2">
-                <div class="img_wrap">
-                    <img src="/images/frame-1-533x868.png" class="img-fluid" alt="">
+
+            <!--services-->
+            <div class="container-fluid services position-relative">
+                <div class="container py-5">
+                    <h1 class="text-uppercase fw-bold">our services</h1>
+                    <div class="cards row">
+                        <div class="col-12 col-sm-6 col-lg-4 mb-5">
+                            <div class="service-card pt-5">
+                                <div class="img">
+                                    <div class="box-modern-circle"></div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#09b294"
+                                            d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#09b294"
+                                            d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                                    </svg>
+                                    <div class="box-modern-circle-1"></div>
+                                </div>
+                                <div class="wrap">
+                                    <h4 class="text-uppercase mb-4">private driver</h4>
+                                    <p>
+                                        Enjoy the best customer service from our professional drivers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 mb-5">
+                            <div class="service-card">
+                                <div class="img">
+                                    <div class="box-modern-circle"></div>
+                                    <svg style="transform: rotate(270deg) !important" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#09b294"
+                                            d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        !Font Awesome Free 6.5.2 by @fontawesome -
+                                        https://fontawesome.com License -
+                                        https://fontawesome.com/license/free Copyright 2024 Fonticons,
+                                        Inc.
+                                        <path fill="#09b294" 3-32-32-32H256V80z" />
+                                    </svg>
+                                    <div class="box-modern-circle-1"></div>
+                                </div>
+                                <div class="wrap">
+                                    <h4 class="text-uppercase mb-4">airport transfer</h4>
+                                    <p>
+                                        Comfortable transfer services from airport to any chosen
+                                        address.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="service-card">
+                                <div class="img">
+                                    <div class="box-modern-circle"></div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#09b294"
+                                            d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#09b294"
+                                            d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                                    </svg>
+                                    <div class="box-modern-circle-1"></div>
+                                </div>
+                                <div class="wrap">
+                                    <h4 class="text-uppercase mb-4">baggage transfer</h4>
+                                    <p>
+                                        If you need to collect your baggage, we are ready to help you.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="container-fluid download-app">
+                <div class="row">
+                    <div class="col-12 col-md-6 column_1">
+                        <div class="download">
+                            <h3 class="text-uppercase">download the app</h3>
+                            <div class="tabs mt-4">
+                                <div class="tab-headers d-flex">
+                                    <p class="active me-md-4 mb-0 mb-md-3 header">details</p>
+                                    <p class="header">how it works</p>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="mt-3 tab-content-child active">
+                                        <p class="p-main">
+                                            Download our app and enjoy the best service from ETAXI. All you have to do
+                                            to
+                                            begin
+                                            using it is to enter your name and mobile phone number. You’ll access:
+                                        </p>
+                                        <div class="list_wrap">
+                                            <div class="list_style_wrap d-flex align-items-center">
+                                                <div></div>
+                                                <p class="mb-0">Special offers</p>
+                                            </div>
+                                            <div class="list_style_wrap d-flex align-items-center">
+                                                <div></div>
+                                                <p class="mb-0">ETAXI loyalty program</p>
+                                            </div>
+                                            <div class="list_style_wrap d-flex align-items-center">
+                                                <div></div>
+                                                <p class="mb-0">More pricing plans</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3 tab-content-child">
+                                        <p class="p-main">
+                                            ETAXI App allows you to book a taxi without having to call our dispatcher as
+                                            well as set your route in advance or pick a driver, a preferred car, and
+                                            more:
+                                        </p>
+                                        <div class="list_wrap">
+                                            <div class="list_style_wrap d-flex align-items-center">
+                                                <div></div>
+                                                <p class="mb-0">Manage your taxi spendings;</p>
+                                            </div>
+                                            <div class="list_style_wrap d-flex align-items-center">
+                                                <div></div>
+                                                <p class="mb-0">Pay for taxi without a credit card;</p>
+                                            </div>
+                                            <div class="list_style_wrap d-flex align-items-center">
+                                                <div></div>
+                                                <p class="mb-0">Great discounts for regular clients.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="stores mt-5">
+                                    <img src="/images/button-1-170x53.png" class="img-fluid me-4" alt="">
+                                    <img src="/images/button-2-170x53.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-sm-flex d-md-block align-items-center column_2">
+                        <div class="img_wrap">
+                            <img src="/images/frame-1-533x868.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-1 text-center" id="stickers">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center bordered-1">
+                        <div class="col-sm-4">
+                            <div class="box-default">
+                                <p class="box-default-title">Standard</p>
+                                <p class="box-default-text">$2,7 /km</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="box-default">
+                                <p class="box-default-title">Business</p>
+                                <p class="box-default-text">$5,7 /km</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="box-default">
+                                <p class="box-default-title">Premium</p>
+                                <p class="box-default-text">$7,7 /km</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials text-center">
+                <div class="container contain">
+                    <h3 class="text-uppercase my-5">Testimonials</h3>
+                    <div class="clients">
+                        <div class="row clients-data">
+                            <div class="col-md-6 col-lg-4 testimony">
+                                <blockquote class="quotes">
+                                    <div class="quotes_head">
+                                        <div class="quotes-info">
+                                            <img src="./images/testimonials-1-74x74.jpg" class="quotes_img" />
+                                            <div class="quotes-info-main">
+                                                <cite class="quotes-cite">JANE WILLIAMS</cite>
+                                                <p>Regular Client</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quote">
+                                        <div class="quote-text">
+                                            <p class="">
+                                                I found your service to be a 5-star experience. The
+                                                driver was waiting at the arrivals hall for us. All the
+                                                people we communicated with were pleasant and cheerful.
+                                            </p>
+                                        </div>
+                                        <div class="quote_logo">
+                                            <a class="quote-link"><i class="bi bi-facebook"
+                                                    style="color:#6885cf; font-size:40px"></i></a>
+                                            <time class="quote-time" datetime="2024">Mar 24, 2024</time>
+                                        </div>
+                                    </div>
+
+                                </blockquote>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <blockquote class="quotes">
+                                    <div class="quotes_head">
+                                        <div class="quotes-info">
+                                            <img src="./images/testimonials-2-74x74.jpg" class="quotes_img" />
+                                            <div class="quotes-info-main">
+                                                <cite class="quotes-cite">JOE DOE</cite>
+                                                <p>Regular Client</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quote">
+                                        <div class="quote-text">
+                                            <p class="">
+                                                Everything went perfectly! Incredibly punctual, friendly drivers, and
+                                                the
+                                                best service!
+                                            </p>
+                                        </div>
+                                        <div class="quote_logo">
+                                            <a class="quote-link"><i class="bi bi-facebook"
+                                                    style="color:#6885cf; font-size:40px"></i></a>
+                                            <time class="quote-time" datetime="2024">Mar 24, 2024</time>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <blockquote class="quotes">
+                                    <div class="quotes_head">
+                                        <div class="quotes-info">
+                                            <img src="./images/testimonials-3-74x74.jpg" class="quotes_img" />
+                                            <div class="quotes-info-main">
+                                                <cite class="quotes-cite">KATE PETERSON</cite>
+                                                <p>Regular Client</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quote">
+                                        <div class="quote-text">
+                                            <p class="">
+                                                The service was excellent, thank you. My driver was waiting at Arrivals
+                                                for
+                                                me with a clear sign. He introduced himself, was very polite and
+                                                friendly.
+                                            </p>
+                                        </div>
+                                        <div class="quote_logo">
+                                            <a class="quote-link"><i class="bi bi-facebook"
+                                                    style="color:#6885cf; font-size:40px"></i></a>
+                                            <time class="quote-time" datetime="2024">Mar 24, 2024</time>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sponsors">
+                    <h3>Our Partners</h3>
+                    <!-- Owl Carousel-->
+                    <div class="underlay"></div>
+                    <div class="owl-carousel owl-carousel-centered" data-items="2" data-sm-items="3" data-md-items="4"
+                        data-lg-items="5" data-stage-padding="0" data-loop="true" data-margin="30"
+                        data-mouse-drag="false" data-owl='{"dots":true}'>
+                        <div class="wow clipInLeft"><a class="link-image-1" href="#"><img
+                                    src="images/investor-1-88x77.png" alt="" width="88" height="77"
+                                    loading="lazy" /></a></div>
+                        <div class="wow clipInLeft" data-wow-delay=".1s"><a class="link-image-1" href="#"><img
+                                    src="images/investor-2-73x78.png" alt="" width="73" height="78"
+                                    loading="lazy" /></a></div>
+                        <div class="wow clipInLeft" data-wow-delay=".2s"><a class="link-image-1" href="#"><img
+                                    src="images/investor-3-96x62.png" alt="" width="96" height="62"
+                                    loading="lazy" /></a></div>
+                        <div class="wow clipInLeft" data-wow-delay=".3s"><a class="link-image-1" href="#"><img
+                                    src="images/investor-4-78x80.png" alt="" width="78" height="80"
+                                    loading="lazy" /></a></div>
+                        <div class="wow clipInLeft" data-wow-delay=".4s"><a class="link-image-1" href="#"><img
+                                    src="images/investor-5-87x76.png" alt="" width="87" height="76"
+                                    loading="lazy" /></a></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-    <div class="section section-1 text-center" id="stickers">
-        <div class="container">
-            <div class="row justify-content-center align-items-center bordered-1">
-                <div class="col-sm-4">
-                    <div class="box-default">
-                        <p class="box-default-title">Standard</p>
-                        <p class="box-default-text">$2,7 /km</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="box-default">
-                        <p class="box-default-title">Business</p>
-                        <p class="box-default-text">$5,7 /km</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="box-default">
-                        <p class="box-default-title">Premium</p>
-                        <p class="box-default-text">$7,7 /km</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="testimonials text-center">
-      <div class="container contain">
-          <h3 class="text-uppercase my-5">Testimonials</h3>
-        <div class="clients">
-          <div class="row clients-data">
-            <div class="col-md-6 col-lg-4 testimony">
-              <blockquote class="quotes">
-                <div class="quotes_head">
-                  <div class="quotes-info">
-                    <img
-                      src="./images/testimonials-1-74x74.jpg"
-                      class="quotes_img"
-                    />
-                    <div class="quotes-info-main">
-                      <cite class="quotes-cite">JANE WILLIAMS</cite>
-                      <p>Regular Client</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="quote">
-                    <div class="quote-text">
-                      <p class="">
-                        I found your service to be a 5-star experience. The
-                        driver was waiting at the arrivals hall for us. All the
-                        people we communicated with were pleasant and cheerful.
-                      </p>
-                    </div>
-                    <div class="quote_logo">
-                        <a class="quote-link"><i class="bi bi-facebook" style="color:#6885cf; font-size:40px"></i></a>
-                        <time class="quote-time" datetime="2024">Mar 24, 2024</time>
-                    </div>
-                  </div>
-
-              </blockquote>
-            </div>
-            <div class="col-md-6 col-lg-4" >
-            <blockquote class="quotes">
-                <div class="quotes_head">
-                  <div class="quotes-info">
-                    <img
-                      src="./images/testimonials-2-74x74.jpg"
-                      class="quotes_img"
-                    />
-                    <div class="quotes-info-main">
-                      <cite class="quotes-cite">JOE DOE</cite>
-                      <p>Regular Client</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="quote">
-                    <div class="quote-text">
-                      <p class="">
-                        Everything went perfectly! Incredibly punctual, friendly drivers, and the best service!
-                      </p>
-                    </div>
-                    <div class="quote_logo">
-                        <a class="quote-link"><i class="bi bi-facebook" style="color:#6885cf; font-size:40px"></i></a>
-                        <time class="quote-time" datetime="2024">Mar 24, 2024</time>
-                    </div>
-                  </div>
-              </blockquote>
-            </div>
-            <div class="col-md-6 col-lg-4" >
-            <blockquote class="quotes">
-                <div class="quotes_head">
-                  <div class="quotes-info">
-                    <img
-                      src="./images/testimonials-3-74x74.jpg"
-                      class="quotes_img"
-                    />
-                    <div class="quotes-info-main">
-                      <cite class="quotes-cite">KATE PETERSON</cite>
-                      <p>Regular Client</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="quote">
-                    <div class="quote-text">
-                      <p class="">
-                        The service was excellent, thank you. My driver was waiting at Arrivals for me with a clear sign. He introduced himself, was very polite and friendly.
-                      </p>
-                    </div>
-                    <div class="quote_logo">
-                        <a class="quote-link"><i class="bi bi-facebook" style="color:#6885cf; font-size:40px"></i></a>
-                        <time class="quote-time" datetime="2024">Mar 24, 2024</time>
-                    </div>
-                  </div>
-              </blockquote></div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <h3 class="text-uppercase">Our Partners</h3>
-      </div>
-    </section>
-
-    
     <script>
-      const navBar = document.querySelector(".navBar");
-      const navLinks = document.querySelector(".nav_links");
-      let lastScrollTop = 0;
+        const navBar = document.querySelector(".navBar");
+        const navLinks = document.querySelector(".nav_links");
+        let lastScrollTop = 0;
 
-      window.addEventListener("scroll", () => {
-        let scrollHeight =
-          window.pageYOffset || document.documentElement.scrollTop;
-        if (scrollHeight > lastScrollTop) {
-          navBar.classList.add("scroll");
-          navLinks.classList.add("scroll");
-        } else {
-          navBar.classList.remove("scroll");
-          navLinks.classList.remove("scroll");
-        }
-        // lastScrollTop = scrollHeight;
-      });
+        window.addEventListener("scroll", () => {
+            let scrollHeight =
+                window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollHeight > lastScrollTop) {
+                navBar.classList.add("scroll");
+                navLinks.classList.add("scroll");
+            } else {
+                navBar.classList.remove("scroll");
+                navLinks.classList.remove("scroll");
+            }
+            // lastScrollTop = scrollHeight;
+        });
     </script>
 
     <script src="/main.js"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

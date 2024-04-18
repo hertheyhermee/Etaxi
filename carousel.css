@@ -1,0 +1,45 @@
+.sponsors {
+    position: relative;
+    padding: 100px 0;
+}
+
+.owl-carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    /* min-width: 768px; */
+}
+
+.sponsors img {
+    /* width:; */
+    -webkit-filter: grayscale(100%) !important; 
+    filter: grayscale(100%) !important;
+    display: block;
+}
+.wow {
+
+}
+.sponsors h3 {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #151515;
+    font-weight: 700;
+    margin-bottom: 30px;
+    z-index: 11;
+}
+.underlay {
+    position: absolute;
+    background-color: #f9f8f880 !important;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+@media screen and (max-width:992px) {
+    
+}
