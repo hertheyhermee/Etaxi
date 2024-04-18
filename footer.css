@@ -4,6 +4,7 @@
 }
 .footers ul {
     margin-top: 30px !important;
+    list-style: none;
 }
 .footers ul li {
     margin: 15px 0 !important;
@@ -74,7 +75,7 @@
 }
 
 @media screen and (min-width:576px) {
-    .services {
+    .footer_services {
         columns: 2;
         break-inside: avoid;
         column-gap: 30px;
