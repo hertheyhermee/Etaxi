@@ -21,6 +21,21 @@
     padding:10px 0 0px;
 }
 
+.footers button {
+    border: 1px solid black;
+    padding: 10px 25px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #151515;
+    letter-spacing: .13px;
+    transition: .2s;
+}
+
+.footers button:hover {
+    background-color:  #09b294;
+    color:  #fff;
+    border-color:  #09b294;
+}
 
 /* .buttons {
     padding: 10px 50px;
