@@ -2,6 +2,7 @@
     position: fixed;
     z-index: 9999;
     transition: .2s all ease;
+    box-sizing: border-box;
 }
 
 .navBar .child {
@@ -99,7 +100,7 @@
     width: 40%;
     bottom: 50%;
     transition: .2s ease;
-    left: 19%;
+    left: 17%;
     /* right: auto; */
 }
 .hamburger .wrap div::after {
@@ -112,12 +113,13 @@
 }
 
 .hamburger .wrap:hover .hamburger-item::before {
-    left: 38%;
+    left: 42%;
     /* right: 19%; */
 }
 
 .nav_links {
     transition: .2s ease;
+    
 } 
 
 .nav_links button {
@@ -125,7 +127,7 @@
     color: white;
     font-weight: 700;
     border: 1px solid #fff !important;
-    padding: 10px 20px;
+    padding: 10px 15px;
     margin: 10px 20px;
     border-radius: 5px;
 }
@@ -134,7 +136,7 @@
 
 .navBar.scroll {
     background: #fff;
-    padding: 0 12px !important;
+    padding: 0 1px !important;
     transition: .2s ease;
     /* margin: 0 !important; */
 }
@@ -142,13 +144,14 @@
 .nav_links.scroll {
     transition: .2s ease;
     clip-path: polygon(4% 0, 100% 0, 100% 100%, 0% 100%);
-    padding: 0 100px 0 25px;
+    /* padding: 0 100px 0 25px; */
     border-radius:;
     position: absolute;
     right: 0;
     width: 25%;
     height: 100%;
-    background: #2a4696 !important;
+    background: #183399 !important;
+    /* border-bottom: 1px solid #183399; */
     z-index: 888;
 }    
 }
@@ -157,8 +160,10 @@
 @media screen and (max-width:1200px) {
     .navBar {
         background-color: #fff;
-        border-bottom: 1px solid #ebebeb;
         padding-right: 0 !important;
+    }
+    .navBar.scroll {
+        border-bottom: 1px solid #ebebeb;
     }
     .navBar .child {
         padding: 0 !important;
@@ -169,9 +174,12 @@
         padding-right: 0 !important;
     }
     .nav_links {
+        /* position: ; */
+        margin-right: 0;
+        padding: 0px 13px 0 0 !important;
         background:#2a4696;
         height: inherit;
-        padding: 0 13px;
+        /* padding: 0 13px; */
         /* border: 3px solid goldenrod; */
     }
     .nav_links button {
@@ -191,5 +199,11 @@
         padding: 7px 12px;
         margin: 7px 0px;
         border-radius: 5px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .nav_links {
+        padding-right:  0px !important;
     }
 }
