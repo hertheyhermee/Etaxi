@@ -13,6 +13,7 @@
 
 ol {
     padding-left: 1rem ;
+    font-size: 17px;
 }
 
 
@@ -53,6 +54,37 @@ ol {
     transform: translate3d(0, -50%, 0);
 }
 
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 17px 35px;
+    font-size: 14px;
+    line-height: 1.4;
+    border: 1px solid;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: 250ms all ease-in-out;
+    color: #ffffff;
+    background-color: #09b294;
+    border-color: #09b294;
+}
+
+.button:hover {
+    color: #ffffff; 
+    background-color: #1c3ca8; 
+    cursor: pointer;
+}
+
+.career-start a {
+    text-decoration: none;
+}
+
 img {
     display: inline-block;
     max-width: 100%;
@@ -76,8 +108,27 @@ li a {
     padding: 80px 0 30px;
 }
 
-.career-details h3 {
-    /* font-size: 47px; */
+/* .career-contain {
+    padding: 0 30px;
+} */
+
+
+
+.career-details .career-start p {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.career-details .career-start ol li {
+    font-size: 17px;
+    color: #151515;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 20.4px;
+
 }
 
 .lists {
@@ -101,9 +152,9 @@ li a {
     padding:80px 0 110px;
 }
 
-.career-start {
+/* .career-start {
     padding: 0 20px ;
-}
+} */
 
 
 .vacant a {
@@ -119,10 +170,12 @@ li a {
     border-radius: 6px;
     background: #ffffff;
     box-shadow: 1px 2px 5px 0 rgba(68, 73, 83, 0.12);
+    /* font-size: 26px; */
 }
 .vacancy p {
     font-weight: 300;
     color: #151515;
+    font-size: 26px;
 }
 
 .vacancy-list {
@@ -134,9 +187,19 @@ li a {
 .vacancy-list li {
     display: inline-block;
     margin-top: 0;
-    margin-bottom: 4px;
-    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-left: 11px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
 }
+
+.vacancies h3 {
+    font-size: 23px;
+    line-height: 1.35;
+    letter-spacing: 0;
+}
+
 
 .copyright {
     border-top: 1px solid #ebebeb;
@@ -154,18 +217,34 @@ ul {
     .vacancy {
         font-size: 26px;
     }
+
+    .career-details .career-start h3 {
+        font-size: 37px;
+        line-height: 1.2973;
+    }
 }
 
 .career-img + .career-details {
     border-top: 1px solid #ebebeb;
 }
 
+
 @media (max-width:768px) {
     .vacancy {
         padding: 35px 9% 45px;
     }
-    .vacancy-list {
-        /* margin-left: 0 !important; */
+    
+}
+
+/* @media screen and (min-width:768px) {
+    .career-details .career-start h3 {
+        font-size: 30px;
+    }
+} */
+
+@media screen and (max-width:1200px)  {
+    .car {
+        padding-left: 45px;
     }
 }
 
@@ -182,11 +261,29 @@ ul {
 }
 
 
-/* @media screen and (max-width: 992px) {
-    .career-start {
-        padding-left: 0;
+@media screen and (max-width: 992px) {
+    .career-details {
+        margin-bottom: 50px;
     }
-} */
+
+    .career-details .career-start p {
+        font-size: 15px;
+    }
+
+    .car {
+        padding-left: 0px;
+    }
+
+    .vacancies {
+        padding: 30px 0;
+    }
+    .vacancy p {
+        font-weight: 300;
+        color: #151515;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+}
 
 
 

@@ -35,7 +35,17 @@
     background-color:  #09b294;
     color:  #fff;
     border-color:  #09b294;
+    background: #09b294;
 }
+ /* .footers .join {
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    border: 1px solid #fff !important;
+    padding: 10px 15px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}  */
 
 /* .buttons {
     padding: 10px 50px;
