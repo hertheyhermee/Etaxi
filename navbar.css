@@ -4,8 +4,16 @@
     transition: .2s all ease;
     box-sizing: border-box;
 }
+.navBar-career {
+    position: fixed;
+    z-index: 9999;
+    transition: .2s all ease;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid black;
+}
 
-.navBar .child {
+.navBar .child, .navBar-career {
     margin: 0 6em;
 }
 
@@ -92,6 +100,12 @@
     margin-top: 5px;
 }
 
+.navBar-career .hamburger .wrap div,
+.navBar-career .hamburger .wrap div::before,
+.navBar-career .hamburger .wrap div::after {
+    background-color: #000;
+}
+
 .hamburger .wrap div::before {
     position: absolute;
     content: "";
@@ -103,6 +117,8 @@
     left: 17%;
     /* right: auto; */
 }
+
+
 .hamburger .wrap div::after {
     position: absolute;
     content: "";
@@ -133,6 +149,32 @@
     transition: .2s;
 }
 
+.navBar-career .nav_links button {
+    border-color: #000 !important;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.navBar-career .logo_div {
+    width: 80% !important;
+
+}
+
+.navBar-career .nav_links {
+    width: 20% !important;
+    
+}
+
+.navBar-career .app {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    /* padding: 20px 40px; */
+}
+
+
 .nav_links button:hover {
     background:  #09b294;
     border-color:  #09b294 !important;
@@ -159,7 +201,9 @@
     background: #183399 !important;
     /* border-bottom: 1px solid #183399; */
     z-index: 888;
-}    
+} 
+
+
 }
 
 
@@ -188,6 +232,14 @@
         /* padding: 0 13px; */
         /* border: 3px solid goldenrod; */
     }
+
+    .navBar-career .nav_links {
+        background: transparent;
+        margin-right: 0;
+        padding: 0px 13px 0 0 !important;
+        height: inherit;
+        
+    }
     .nav_links button {
         background: transparent;
         color: #ebebeb;
@@ -195,6 +247,18 @@
         border: none !important;
         margin-right: 20px;
     }
+    
+.navBar-career .nav_links button {
+    border: 1px solid #000 !important;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* .navBar-career .logo_div .app {
+    
+} */
+
 }
 @media screen and (max-width:768px) {
     .nav_links button {
@@ -206,6 +270,7 @@
         margin: 7px 0px;
         border-radius: 5px;
     }
+    
 }
 
 @media screen and (max-width:460px) {

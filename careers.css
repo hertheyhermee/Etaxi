@@ -1,6 +1,6 @@
 .careers {
     position: relative;
-    padding: 80px 0 30px;
+    padding: 140px 0 110px;
     background: #2a4696 url(images/bg-image-1.jpg)center center;
     background-size: cover;
 }
@@ -9,6 +9,10 @@
     background: #f9f8f8;
     padding: 0 10px;
     text-align: center;
+}
+
+.careers h2 {
+    font-size: 40px;
 }
 
 ol {
@@ -212,7 +216,7 @@ ul {
 
 @media (min-width:1200px) {
     .careers {
-        padding: 80px 0 110px;
+        padding: 200px 0 110px;
     }
     .vacancy {
         font-size: 26px;
@@ -282,6 +286,21 @@ ul {
         color: #151515;
         font-size: 20px;
         margin-bottom: 40px;
+    }
+    .careers {
+        padding: 110px 0 60px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .career-details {
+        padding: 50px 0;
+    }
+    .career-details .career-start ol li {
+        /* margin-top: 15px; */
+    }
+    .careers h2 {
+        font-size: 20px;
     }
 }
 

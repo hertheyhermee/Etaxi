@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="careers.css" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="sidebars.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,6 +18,65 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
   <body>
+
+    <div class="container-fluid navBar-career">
+      <div class="py-1 py-xl-0 child">
+          <nav class="d-flex justify-content-between align-items-center mx-0 ms-md-5">
+              <div class="logo_div d-flex align-items-center">
+                  <div class="d-block d-xl-none">
+                      <div class="hamburger-major">
+                          <div class="ham-major-wrapper">
+                              <div class="ham-major-item"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="brand">
+                      <img src="./images/logo-111x33.png" alt="">
+                  </div>
+                  <div class="ms-5 justify-content-center gap-5 links d-none d-xl-flex app">
+                      <a href="#" class="text-capitalize text-decoration-none">get our app</a>
+                      <a href="#" class="text-capitalize text-decoration-none">pages</a>
+                  </div>
+              </div>
+              <div class="nav_links d-flex align-items-center pe-0 pe-sm-5 ps-sm-3">
+                  <button class="join text-uppercase">join us</button>
+                  <div class="hamburger">
+                      <div class="wrap d-flex flex-column position-relative align-items-center py-2">
+                          <div class="hamburger-item"></div>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+      </div>
+  </div>
+
+
+  <!-- Mobile Navbar -->
+  <div class="left-sidebar d-xl-none">
+      <div class="nav_wrap">
+          <ul>
+              <li class="text-capitalize">get our app</li>
+              <li class="text-capitalize">pages</li>
+          </ul>
+      </div>
+  </div>
+
+  <div class="right-sidebar">
+      <div class="nav_wrap_one">
+          <div class="position-relative px-4 py-4">
+              <h5 class="mb-0 sidebar-title text-uppercase">navigation</h5>
+              <p class="close mb-0 ">x</p>
+          </div>
+          <ul>
+              <li class="text-capitalize border-top border-bottom">about us</li>
+              <li class="text-uppercase border-bottom">faq</li>
+              <li class="text-capitalize border-bottom">testimonials</li>
+              <li class="text-capitalize border-bottom">our team</li>
+          </ul>
+      </div>
+  </div>
+
+
     <!-- Career -->
     <section class="d-flex flex-column text-center career-img ">
       <div class="careers">
@@ -49,8 +110,8 @@
                 and furthering the company's successful philosophy. We can offer
                 you:
               </p>
-              <ol class="lists my-5">
-                <li class="mb-2">Creative Space</li>
+              <ol class="lists my-sm-5 my-3">
+                <li class="mb-2 ">Creative Space</li>
                 <li>Cookies</li>
                 <li class="mb-2">Growing Career</li>
                 <li>Benefits</li>
@@ -236,5 +297,8 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="/main.js"></script>
   </body>
 </html>

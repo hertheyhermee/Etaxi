@@ -59,6 +59,7 @@
     font-weight: 400;
     color: #00000065;
     letter-spacing: 3;
+    cursor: pointer;
 }
 
 .right-sidebar .nav_wrap_one ul {
