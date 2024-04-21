@@ -5,8 +5,8 @@ const hamburger = document.querySelector('.hamburger');
 const sideBarTwo = document.querySelector('.right-sidebar')
 const cancel = document.querySelector(".close");
 const overlay = document.querySelector('.overlay')
-const wrapper = document.querySelector('.wrapss')
-console.log(cancel);
+const wrapper = document.querySelector('.wrapss');
+
 
 hamburger.addEventListener('click', () => {
     sideBarTwo.classList.add('active')
@@ -15,7 +15,7 @@ hamburger.addEventListener('click', () => {
 cancel.addEventListener('click', () => {
     sideBarTwo.classList.remove('active');
 })
-console.log(window);
+
 function closeSidebars(item) {
     wrapper.addEventListener('click', () => {
         item.classList.remove('active');

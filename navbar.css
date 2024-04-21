@@ -4,16 +4,18 @@
     transition: .2s all ease;
     box-sizing: border-box;
 }
+
 .navBar-career {
     position: fixed;
     z-index: 9999;
     transition: .2s all ease;
     box-sizing: border-box;
     background: #fff;
-    border: 1px solid black;
+    border: 1px solid #ebebeb;
 }
 
-.navBar .child, .navBar-career {
+.navBar .child,
+.navBar-career {
     margin: 0 6em;
 }
 
@@ -25,9 +27,7 @@
 }
 
 
-.hamburger-major {
-
-}
+.hamburger-major {}
 
 .ham-major-wrapper {
     position: relative;
@@ -56,6 +56,7 @@
     background: #000;
     transition: .2s all;
 }
+
 .ham-major-item::after {
     content: "";
     position: absolute;
@@ -135,8 +136,8 @@
 
 .nav_links {
     transition: .2s ease;
-    
-} 
+
+}
 
 .nav_links button {
     background: transparent;
@@ -150,6 +151,7 @@
 }
 
 .navBar-career .nav_links button {
+    /* min-width: 100px; */
     border-color: #000 !important;
     color: #000;
     font-weight: 500;
@@ -163,7 +165,6 @@
 
 .navBar-career .nav_links {
     width: 20% !important;
-    
 }
 
 .navBar-career .app {
@@ -174,34 +175,41 @@
     /* padding: 20px 40px; */
 }
 
+.navBar-career,
+.navBar-career .child {
+    transition: .2s ease-in-out;
+}
 
 .nav_links button:hover {
-    background:  #09b294;
-    border-color:  #09b294 !important;
+    background: #09b294;
+    border-color: #09b294 !important;
 }
 
 @media screen and (min-width:1200px) {
+    .navBar-career .child.scroll {
+        padding: 8px 0 !important;
+    }
 
-.navBar.scroll {
-    background: #fff;
-    padding: 0 1px !important;
-    transition: .2s ease;
-    /* margin: 0 !important; */
-}
+    .navBar.scroll {
+        background: #fff;
+        padding: 0 1px !important;
+        transition: .2s ease;
+        /* margin: 0 !important; */
+    }
 
-.nav_links.scroll {
-    transition: .2s ease;
-    clip-path: polygon(4% 0, 100% 0, 100% 100%, 0% 100%);
-    /* padding: 0 100px 0 25px; */
-    border-radius:;
-    position: absolute;
-    right: 0;
-    width: 25%;
-    height: 100%;
-    background: #183399 !important;
-    /* border-bottom: 1px solid #183399; */
-    z-index: 888;
-} 
+    .nav_links.scroll {
+        transition: .2s ease;
+        clip-path: polygon(4% 0, 100% 0, 100% 100%, 0% 100%);
+        /* padding: 0 100px 0 25px; */
+        border-radius: ;
+        position: absolute;
+        right: 0;
+        width: 25%;
+        height: 100%;
+        background: #183399 !important;
+        /* border-bottom: 1px solid #183399; */
+        z-index: 888;
+    }
 
 
 }
@@ -212,22 +220,26 @@
         background-color: #fff;
         padding-right: 0 !important;
     }
+
     .navBar.scroll {
         border-bottom: 1px solid #ebebeb;
     }
+
     .navBar .child {
         padding: 0 !important;
         margin: 0 0;
     }
+
     .navBar .container {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+
     .nav_links {
         /* position: ; */
         margin-right: 0;
         padding: 0px 13px 0 0 !important;
-        background:#2a4696;
+        background: #2a4696;
         height: inherit;
         /* padding: 0 13px; */
         /* border: 3px solid goldenrod; */
@@ -238,8 +250,8 @@
         margin-right: 0;
         padding: 0px 13px 0 0 !important;
         height: inherit;
-        
     }
+
     .nav_links button {
         background: transparent;
         color: #ebebeb;
@@ -247,19 +259,34 @@
         border: none !important;
         margin-right: 20px;
     }
-    
-.navBar-career .nav_links button {
-    border: 1px solid #000 !important;
-    color: #000;
-    font-weight: 500;
-    font-size: 12px;
-}
 
-/* .navBar-career .logo_div .app {
+    .navBar-career .nav_links button {
+        border: 1px solid #000 !important;
+        color: #000;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    /* .navBar-career .logo_div .app {
     
 } */
 
 }
+
+@media screen and (max-width:1250px) {
+    .navBar-career .nav_links {
+        width: 25% !important;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .navBar-career .nav_links {
+        width: 30% !important;
+    }
+
+
+}
+
 @media screen and (max-width:768px) {
     .nav_links button {
         background: transparent;
@@ -270,11 +297,27 @@
         margin: 7px 0px;
         border-radius: 5px;
     }
-    
+    .navBar-career .nav_links {
+        justify-content: end;
+    }
 }
 
-@media screen and (max-width:460px) {
-    .nav_links {
-        padding-right:  0px !important;
+@media screen and (max-width:570px) {
+    .navBar-career .nav_links button {
+       margin-right: 15px !important;
     }
+    .navBar-career .nav_links {
+      width: 40% !important;
+    }
+
+}
+
+
+@media screen and (max-width:481px) {
+    .nav_links {
+        padding-right: 0px !important;
+    }
+    .navBar-career .nav_links {
+        width: 50% !important;
+      }
 }
